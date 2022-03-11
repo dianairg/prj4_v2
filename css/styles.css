@@ -17,6 +17,26 @@ h2 {color: #522CAB}
 h4 {color: #B497F9}
 h5 {color: #ABA233}
 
+a:link {
+
+color: black;
+
+}
+
+a:visited {
+
+color: grey;
+
+}
+
+a:hover {
+
+color: black;
+
+background-color: #FFFEAB;
+
+}
+
 .special-firstheader {
 	color: #D9FFAB
 }
