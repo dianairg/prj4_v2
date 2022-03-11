@@ -17,6 +17,9 @@ h2 {color: #522CAB}
 h4 {color: #B497F9}
 h5 {color: #ABA233}
 
+.special-firstheader {
+	color: #D9FFAB
+}
 .funky-text {
 
 	color: #6f42c1;
@@ -46,7 +49,7 @@ font-style: normal;
 
 .semplicita {
 	font-family: semplicitapro,sans-serif;
-	font-weight: 300;
+	font-weight: 500;
 	font-style: normal;
 }
 
@@ -64,17 +67,17 @@ font-style: normal;
 
 .dazzle {
 	font-family: dazzle-unicase,sans-serif;
-	font-weight: 700;
-	font-style: normal;;
+	font-weight: 750;
+	font-style: normal;
 }
 
 li {
 	font-family: semplicitapro,sans-serif;
-	font-weight: 300;
+	font-weight:500;
 	font-style: normal;}
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color:#AFACB0 ;
 }
 
 .resume-main {
@@ -83,6 +86,10 @@ li {
 
 .resume-aside {
 	background-color: #ECE6FF;
+}
+
+.language{
+	color: #B3B168
 }
 
 /* Styles for lists in the document */
