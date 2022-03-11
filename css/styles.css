@@ -13,6 +13,17 @@ body {
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
+.funky-text {
+
+color: #8020cc;
+
+text-align: center;
+
+font-style: italic;
+
+text-decoration: underline #ffcc00;
+
+}
 .resume-header {
     background-color: #e0f0ff;
 }

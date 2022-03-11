@@ -48,14 +48,14 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="images/portrait-diana.JPEG" alt="Portrait of Diana Iorgulescu" width="914">
+          <img class="w-100 rounded-circle my-3" src="images/portrait-cv2.jpg" alt="Portrait of Diana Iorgulescu" width="900">
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
-          <h1 class="fw-bolder">Diana Iorgulescu</h1>
-          <h5 class="fst-italic tagline">Your expert in creative marketing.</h5>
+          <h1 class="fw-bolder funky-text">Diana Iorgulescu</h1>
+          <h5 class="fst-italic tagline funky-text">Creative Business Students at Breda University of Applied Sciences</h5>
         </div>
       </header>
 
@@ -64,7 +64,7 @@
         Biography and other details will be on top of each other at sizes XS and S, then next to each other.
         Use the "flex-row-reverse" class here to swap the columns around.
       -->
-      <div class="row resume-bottom">
+      <div class="row resume-bottom funky-text">
 
         <!--
           <main> is another semantic element. It will contain biographical info (professional experience and education).
@@ -86,16 +86,16 @@
               <li class="biography-item row mb-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/projector.svg" alt="Company logo" width="80">
+                  <img class="mw-100 d-block mx-auto" src="images/logo-volunteering.png" alt="" width="70">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Production Assistant, Production Company</h4>
-                  <h5>April&ndash;July 2019</h5>
+                  <h4> <strong>Volunteer, Focsani Blues Festival</strong></h4>
+                  <h5>August 2018&ndash;August 2019</h5>
                   <!-- Use the list below to talk about your achievements -->
                   <ul class="biography-details list-unstyled">
-                    <li>Coordinated shootings in studio and on location</li>
-                    <li>Liaised with local authorities and with suppliers</li>
-                    <li>Part of my studies at Breda University of Applied Sciences</li>
+                    <li>Ensuring that the needs of international blues artists are met </li>
+                    <li>Managing tasks under pressure</li>
+                    <li>Creative manager for an interview-based Aftermovie</li>
                   </ul>
                 </div>
               </li>
@@ -104,12 +104,17 @@
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/trolley.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/logo-volunteering.png" alt="Company logo" width="70">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Supermarket Employee, Supermarket chain</h4>
-                  <h5>2018</h5>
+                  <h4> <strong> Volunteer, Gutenberg Association </strong></h4>
+                  <h5>November 2018&ndash;July 2019</h5>
                   <!-- This entry doesn't have a list of achievements, but you can copy-paste the one from above -->
+					<ul class="biography-details list-unstyled">
+                    <li>Organizing cultural projects in German </li>
+                    <li>Creating an Integrated Marketing Communication Strategy</li>
+                    <li>Ensuring engagement through Social Media platforms</li>
+                  </ul>
                 </div>
               </li>
 
@@ -117,6 +122,38 @@
           </section>
 
           <!-- We're done with jobs, let's move on to schools -->
+			
+			<section class="my-3 biography-section">
+            <h2>Contests</h2>
+            <!--
+              Each list item (li) in the unordered list (ul) below will be one job.
+              "list-unstyled" is a class that hides the bullet points of a list.
+            -->
+            <ul class="biography-list list-unstyled">
+
+              <!-- Top item (generally the latest or most relevant) in professional experience -->
+              <li class="biography-item row mb-2">
+                <!-- We're using a grid inside a grid so we can align logos and text -->
+                <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
+                  <img class="mw-100 d-block mx-auto" src="images/logo-volunteering.png" alt="" width="70">
+                </div>
+                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
+                  <h4> <strong> International Robotics Trophy ROBOTOR</strong></h4>
+                  <h5> 2017&ndash;2018</h5>
+                  <!-- Use the list below to talk about your achievements -->
+                  <ul class="biography-details list-unstyled">
+                    <li>Implementing C++ skills for programming robots </li>
+                    <li>Pitching our concept to the contest's jury</li>
+                    <li>Marketing and promoting our products to public and sponsors</li>
+                  </ul>
+                </div>
+              </li>
+
+              <!-- 2nd item in professional experience -->
+             
+
+            </ul>
+          </section>
 
           <section class="my-3 biography-section">
             <h2>Education</h2>
@@ -145,15 +182,17 @@
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school.svg" alt="School logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>High School Diploma, City High School</h4>
+                  <h4>Baccalaureate Diploma, National College "Unirea" Focsani, Romania</h4>
                   <h5>2018</h5>
                   <ul class="biography-details list-unstyled">
-                    <li>Audiovisual media specialization</li>
+                    <li>Mathematics-Informatics Profile</li>
                   </ul>
                 </div>
               </li>
             </ul>
           </section>
+			
+			<div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2"> </div>
 
           <!-- This is the end of the "Education" section -->
 
@@ -179,7 +218,7 @@
               <li class="contact-item">
                 <a class="d-flex align-items-center" href="mailto:email@buas.nl" target="_blank">
                   <img class="contact-icon" src="images/icons/envelope.svg" alt="Email">
-                  email@buas.nl
+                  200262@buas.nl
                 </a>
               </li>
               <li class="contact-item">
@@ -197,7 +236,7 @@
               <li class="contact-item">
                 <a class="d-flex align-items-center" href="tel:+31612345678" target="_blank">
                   <img class="contact-icon" src="images/icons/phone.svg" alt="Mobile Phone">
-                  +31 6 12345678
+                  +31 6 33333333
                 </a>
               </li>
             </ul>
@@ -210,7 +249,7 @@
             <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
             <ul class="language-list list-unstyled">
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Dutch</h5>
+                <h5 class="language-name w-50">Romanian</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
@@ -221,20 +260,20 @@
                 <h5 class="language-name w-50">English</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-75"></div>
+                  <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Spanish</h5>
+                <h5 class="language-name w-50">German</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-50"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Advanced</h6>
+                  <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">German</h5>
+                <h5 class="language-name w-50">Spanish</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
@@ -247,21 +286,31 @@
           <!-- End of contact details, moving on to other skills -->
 
           <section class="my-3 aside-section">
-            <h2>Other Skills</h2>
+            <h2>Assets</h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">Team player</li>
-              <li class="skill-item">Microsoft Office Power User</li>
-              <li class="skill-item">Driving Licence</li>
+              <li class="skill-item">Critical thinking</li>
+              <li class="skill-item">Communication</li>
+              <li class="skill-item">Content Strategy</li>
             </ul>
           </section>
 
           <!-- End of other skills, moving on to interest and hobbies -->
 
-          <section class="my-3 aside-section">
-            <h2>Interests &amp; Hobbies</h2>
+			 <section class="my-3 aside-section">
+            <h2>Computer Skills</h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">Formula 1 Driver</li>
-              <li class="skill-item">Netflix Binge-Watcher</li>
+              <li class="skill-item">Adobe Creative Cloud</li>
+              <li class="skill-item">ECDL Profile Certificate</li>
+     
+            </ul>
+          </section>
+			
+			
+          <section class="my-3 aside-section">
+            <h2>Interests </h2>
+            <ul class="skill-list list-unstyled">
+              <li class="skill-item">Storytelling</li>
+              <li class="skill-item">Digital Marketing</li>
             </ul>
           </section>
 
