@@ -13,6 +13,10 @@
 
     <!-- Links to our additional CSS styles -->
     <link rel="stylesheet" href="css/styles.css">
+	  
+	<link rel="stylesheet" href="css/bootstrap.css">
+	  
+	<link rel="stylesheet" href="https://use.typekit.net/tga2afn.css">
 
     <!-- Alternative CSS for demonstration purposes. You must deactivate the Bootstrap CSS to activate this one. -->
     <!-- 
@@ -23,9 +27,11 @@
   </head>
   <!-- End of the head -->
 
+
   <!-- Start of the body, which contains everything visible on the page -->
   <body class="d-flex flex-column h-100 justify-content-between">
-
+	  
+	
     <!--
       We use a Bootstrap container to align contents.
       The "container" class can be replaced by "container-fluid" to make a full width page.
@@ -54,7 +60,7 @@
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
-          <h1 class="fw-bolder funky-text">Diana Iorgulescu</h1>
+          <h1 class="fw-bolder funky-text adobe-mixta">Diana Iorgulescu</h1>
           <h5 class="fst-italic tagline ">Creative Business Students at Breda University of Applied Sciences</h5>
         </div>
       </header>
@@ -76,6 +82,7 @@
           -->
           <section class="my-3 biography-section">
             <h2>Professional Experience</h2>
+            <p>&nbsp;</p>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
               "list-unstyled" is a class that hides the bullet points of a list.
@@ -88,8 +95,8 @@
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                   <img class="mw-100 d-block mx-auto" src="images/logo-volunteering.png" alt="" width="70">
                 </div>
-                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4> <strong>Volunteer, Focsani Blues Festival</strong></h4>
+                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10 semplicita">
+                  <h4 class="semplicita-semibold"> <strong>Volunteer, Focsani Blues Festival</strong></h4>
                   <h5>August 2018&ndash;August 2019</h5>
                   <!-- Use the list below to talk about your achievements -->
                   <ul class="biography-details list-unstyled">
@@ -107,7 +114,7 @@
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/logo-volunteering.png" alt="Company logo" width="70">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4> <strong> Volunteer, Gutenberg Association </strong></h4>
+                  <h4 class="semplicita-semibold">  Volunteer, Gutenberg Association </h4>
                   <h5>November 2018&ndash;July 2019</h5>
                   <!-- This entry doesn't have a list of achievements, but you can copy-paste the one from above -->
 					<ul class="biography-details list-unstyled">
@@ -124,8 +131,9 @@
           <!-- We're done with jobs, let's move on to schools -->
 			
 			<section class="my-3 biography-section">
-            <h2>Contests</h2>
-            <!--
+              <h2>Contests</h2>
+              <p>&nbsp;</p>
+              <!--
               Each list item (li) in the unordered list (ul) below will be one job.
               "list-unstyled" is a class that hides the bullet points of a list.
             -->
@@ -138,7 +146,7 @@
                   <img class="mw-100 d-block mx-auto" src="images/logo-volunteering.png" alt="" width="70">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4> <strong> International Robotics Trophy ROBOTOR</strong></h4>
+                  <h4 class="semplicita-semibold"> <strong> International Robotics Trophy ROBOTOR</strong></h4>
                   <h5> 2017&ndash;2018</h5>
                   <!-- Use the list below to talk about your achievements -->
                   <ul class="biography-details list-unstyled">
@@ -157,39 +165,40 @@
 
           <section class="my-3 biography-section">
             <h2>Education</h2>
-            <ul class="biography-list list-unstyled">
+            <p>&nbsp;</p>
+<ul class="biography-list list-unstyled">
 
-              <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
-              <li class="biography-item row mb-2">
-                <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logo-buas.svg" alt="School logo" width="120">
-                </div>
-                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
-                  <h5>2018&nbsp;&ndash;&nbsp;now</h5>
-                  <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
-                  <ul class="biography-details list-unstyled">
-                    <li>Member of the student participation council</li>
-                    <li>Minor in resilient entrepreneurship</li>
-                    <li>Exchange with Bournemouth University</li>
-                  </ul>
-                </div>
-              </li>
+          <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
+          <li class="biography-item row mb-2">
+            <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
+              <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logo-buas.svg" alt="School logo" width="120">
+            </div>
+            <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
+              <h4 class="semplicita-semibold">BA in Creative Business, Breda University of Applied Sciences</h4>
+              <h5>2018&nbsp;&ndash;&nbsp;now</h5>
+              <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
+              <ul class="biography-details list-unstyled">
+                <li>Member of the student participation council</li>
+                <li>Minor in resilient entrepreneurship</li>
+                <li>Exchange with Bournemouth University</li>
+              </ul>
+            </div>
+          </li>
 
-              <!-- 2nd item in education -->
-              <li class="biography-item row mb-2">
-                <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school.svg" alt="School logo" width="80">
-                </div>
-                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Baccalaureate Diploma, National College "Unirea" Focsani, Romania</h4>
-                  <h5>2018</h5>
-                  <ul class="biography-details list-unstyled">
-                    <li>Mathematics-Informatics Profile</li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
+          <!-- 2nd item in education -->
+          <li class="biography-item row mb-2">
+            <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
+              <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school.svg" alt="School logo" width="80">
+            </div>
+            <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
+              <h4 class="semplicita-semibold">Baccalaureate Diploma, National College "Unirea" Focsani, Romania</h4>
+              <h5>2018</h5>
+              <ul class="biography-details list-unstyled">
+                <li>Mathematics-Informatics Profile</li>
+              </ul>
+            </div>
+          </li>
+          </ul>
           </section>
 			
 			<div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2"> </div>
@@ -203,10 +212,10 @@
           We now move on to the column with contact details, languages and other skills
           <aside> is also a semantic element.
         -->
-        <aside class="col-md-5 col-lg-4 col-xl-3 resume-aside">
+        <aside class="col-md-5 col-lg-4 col-xl-3 resume-aside background-qualifications">
 
           <!-- The first block will be contact details -->
-          <section class="my-3 aside-section">
+          <section class="my-3 aside-section background-qualifications">
             <h2>Contact</h2>
             <!--
               A list of all your contact details.

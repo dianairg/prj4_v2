@@ -13,17 +13,66 @@ body {
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
+h2 {color: #522CAB}
+h4 {color: #B497F9}
+h5 {color: #ABA233}
+
 .funky-text {
 
-color: #8020cc;
-
-text-align: center;
-
-font-style: italic;
-
-text-decoration: underline #ffcc00;
+	color: #6f42c1;
+	text-align: left;
+	font-style: normal;
+	text-decoration: underline #6610f2;
 
 }
+
+.background{
+	color:  #ECE6FF
+}
+
+.adobe-mixta{
+	font-family: mixta-didone,serif;
+	font-weight: 600;
+	font-style: normal;;
+}
+
+.news-gothic{
+
+font-family: news-gothic-std,sans-serif;
+font-weight: 400;
+font-style: normal;
+	
+}
+
+.semplicita {
+	font-family: semplicitapro,sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.semplicita-semibold {
+	font-family: semplicitapro,sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.fenwick {
+	font-family: fenwick,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.dazzle {
+	font-family: dazzle-unicase,sans-serif;
+	font-weight: 700;
+	font-style: normal;;
+}
+
+li {
+	font-family: semplicitapro,sans-serif;
+	font-weight: 300;
+	font-style: normal;}
+
 .resume-header {
     background-color: #e0f0ff;
 }
@@ -33,7 +82,7 @@ text-decoration: underline #ffcc00;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #ECE6FF;
 }
 
 /* Styles for lists in the document */
